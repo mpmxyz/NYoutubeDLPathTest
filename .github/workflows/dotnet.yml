@@ -30,4 +30,6 @@ jobs:
         name: TestDLPath.exe
         path: obj/Release/*.exe
     - name: Test
-      run: ls obj/Release
+      run: find "${GITHUB_WORKSPACE}"
+    - name: Test2
+      run: find .

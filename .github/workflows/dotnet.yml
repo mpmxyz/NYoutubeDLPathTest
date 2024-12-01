@@ -30,4 +30,4 @@ jobs:
         name: TestDLPath.exe
         path: obj/Release/*.exe
     - name: Test
-      run: ll obj/Release
+      run: ls obj/Release
